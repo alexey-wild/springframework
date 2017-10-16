@@ -3,7 +3,7 @@ package com.KIM.TestJava.Model;
 import java.util.HashMap;
 
 public class Catalog {
-    private HashMap<String, Cd> cds;
+    private HashMap<String, Cd> cds = new HashMap<>();
 
     public HashMap<String, Cd> getCds() {
         return cds;
